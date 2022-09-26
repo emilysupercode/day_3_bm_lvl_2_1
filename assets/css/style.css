@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main section {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1663817132267-1f94026b112b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main section h1 {
+    color: silver;
+    background-color: gray;
+    opacity: .9;
+    text-align: right;
+    border: 4px dotted black;
+    padding: 10px 25px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section p:nth-of-type(1) {
+    background-color: blanchedalmond;
+    color: teal;
+    text-align: left;
+    border: 6px solid blue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px;
+    opacity: .8;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section p:nth-of-type(2) {
+    color: silver;
+    background-color: gray;
+    opacity: .9;
+    text-align: center;
+    border: 4px dotted black;
+    padding: 10px 25px;
+}
+
+main section h2 {
+    background-color: slategray;
+    color: gold;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid purple;
+    box-shadow: 7px 7px 5px plum;
+}
+
+main section p:nth-of-type(3) {
+    background-color: cornflowerblue;
+    color: navy;
+    text-align: left;
+    border: 20px solid forestgreen;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+main section ol {
+    border: 2px solid orange;
+    background-color: peachpuff;
+    color: orange;
+    font-size: 18px;
+    padding: 5px 50px;
+    font-weight: bold;
+
+}
+
+main section ol li {
+    border-bottom: 2px solid red;
+}
+
+main section h3 {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: gray;
+    opacity: .5;
+    text-align: center;
+    border: double 10px black;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 48px;
+}
+
+main section p:nth-of-type(4) {
+    background-color: cornflowerblue;
+    color: navy;
+    text-align: left;
+    border: 20px solid forestgreen;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+main section ul {
+    border: 2px solid orange;
+    background-color: peachpuff;
+    color: orange;
+    font-size: 18px;
+    padding: 5px 50px;
+    font-weight: bold;
+}
+
+main section ul li {
+    border-bottom: 2px solid red;
+}
+
+main section p:nth-of-type(5) {
+    color: silver;
+    background-color: gray;
+    opacity: .9;
+    text-align: center;
+    border: 4px dotted black;
+    padding: 10px 25px;
+}
+
+main section body p:nth-of-type(6) {
+    background-color: cornflowerblue;
+    color: navy;
+    text-align: left;
+    border: 20px solid forestgreen;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
